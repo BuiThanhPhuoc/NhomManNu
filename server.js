@@ -27,7 +27,11 @@ app.get('/api/users', (req, res) => {
     // B them route API 1
     // B them route API 2
 });
-
+// B dang tao conflict 1
+// B test chuc nang payment
+// B test chuc nang cart
+// B test chuc nang order
+console.log("B is testing");
 // A dang tao conflict 1
 // A test chuc nang login
 // A test chuc nang logout
