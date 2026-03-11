@@ -314,4 +314,11 @@ p {
     margin-top: 20px;
     display: block;
 }
+
+.b-custom-box {
+    background: blue;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
 /* end of footer */
