@@ -21,4 +21,11 @@ app.get('/contact', (req, res) => {
     // B them route contact 2
 });
 
+app.get('/api/users', (req, res) => {
+    let users = ['Khach 1', 'Khach 2', 'Khach 3'];
+    res.json({ data: users, status: 200 });
+    // B them route API 1
+    // B them route API 2
+});
+
 app.listen(3000, () => console.log('Server chạy tại http://localhost:3000'));
