@@ -32,4 +32,10 @@ app.get('/api/users', (req, res) => {
 // B test chuc nang cart
 // B test chuc nang order
 console.log("B is testing");
+// A dang tao conflict 1
+// A test chuc nang login
+// A test chuc nang logout
+// A test chuc nang register
+console.log("A is testing");
+
 app.listen(3000, () => console.log('Server chạy tại http://localhost:3000'));
