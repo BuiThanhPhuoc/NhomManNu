@@ -27,5 +27,9 @@ app.get('/api/users', (req, res) => {
     // B them route API 1
     // B them route API 2
 });
-
+// B dang tao conflict 1
+// B test chuc nang payment
+// B test chuc nang cart
+// B test chuc nang order
+console.log("B is testing");
 app.listen(3000, () => console.log('Server chạy tại http://localhost:3000'));
