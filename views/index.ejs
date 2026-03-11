@@ -121,16 +121,12 @@
                     <h4>Categories</h4>
                     <div class="templatemo_right_section_content">
                         <ul>
-                            <li><a href="#">Artificial and Silk</a></li>
-                            <li><a href="#">Dried and Preserved</a></li>
-                            <li><a href="#">Floral</a></li>
-                            <li><a href="#">Fresh Cut</a></li>
-                            <li><a href="#">Gardens</a></li>
-                            <li><a href="#">Gifts</a></li>
-                            <li><a href="#">Nurseries</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Weddings</a></li>
-                            <li><a href="#">Wholesale</a></li>
+                            <% const categories=['Hoa Hồng', 'Hoa Lan' , 'Hoa Cúc' , 'Hoa Mai' , 'Hoa Đào' ]; %>
+                                <% categories.forEach(function(cat) { %>
+                                    <li><a href="#">
+                                            <%= cat %>
+                                        </a></li>
+                                    <% }); %>
                         </ul>
                     </div>
                 </div>
