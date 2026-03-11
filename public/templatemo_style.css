@@ -307,4 +307,11 @@ p {
 	width: 485px;
 	text-align: left;
 }
+
+.b-custom-class {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
 /* end of footer */
