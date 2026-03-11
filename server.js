@@ -14,4 +14,11 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/contact', (req, res) => {
+    let title = "Trang Liên Hệ";
+    res.send("<h1>" + title + "</h1><p>Đang xây dựng</p>");
+    // B them route contact 1
+    // B them route contact 2
+});
+
 app.listen(3000, () => console.log('Server chạy tại http://localhost:3000'));
